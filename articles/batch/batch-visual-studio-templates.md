@@ -57,7 +57,7 @@
     * диспетчер заданий пакетной службы Azure с разделителем заданий;
     * обработчик задач пакетной службы Azure.
 
-  * Скачайте шаблоны из интерактивной коллекции для Visual Studio: [Microsoft Azure Batch Project Templates][vs_gallery_templates] (Шаблоны проектов пакетной службы Microsoft Azure).
+  * Скачайте шаблоны из интерактивной коллекции для Visual Studio: [Microsoft Azure Batch Project Templates][vs_gallery_templates] \(Шаблоны проектов пакетной службы Microsoft Azure).
 
 * Если планируется развернуть диспетчер заданий и обработчик задач на вычислительных узлах пакетной службы с помощью [пакетов приложений](batch-application-packages.md), необходимо связать учетную запись хранения с учетной записью пакетной службы.
 
@@ -371,7 +371,7 @@ public async Task<int> Run()
     {
         throw new TaskProcessorException(
         $"{ex.GetType().Name} exception in run task processor: {ex.Message}",
-        Ex
+        ex
         );
     }
 }
@@ -482,4 +482,4 @@ parameters.json. Если он найден, он загружается в ка
 [solution_explorer01]: ./media/batch-visual-studio-templates/solution_explorer01.png
 [solution_explorer02]: ./media/batch-visual-studio-templates/solution_explorer02.png
 
-<!---HONumber=AcomDC_0914_2016-->
+<!---HONumber=AcomDC_0921_2016-->

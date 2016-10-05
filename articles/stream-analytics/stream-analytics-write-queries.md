@@ -5,7 +5,7 @@
 	documentationCenter=""
 	services="stream-analytics"
 	authors="jeffstokes72" 
-	manager="paulettm" 
+	manager="jhubbard" 
 	editor="cgronlun"/>
 
 <tags 
@@ -52,7 +52,7 @@
 
     ![Проверка запроса данных](./media/stream-analytics-write-queries/4-stream-analytics-write-queries.png)
 
-3.	Найдите тестовый файл. В [github] (https://github.com/Azure/azure-stream-analytics/tree/master/Sample данных) доступно несколько примеров файлов, а также возможность извлекать примеры данных из входных потоковых данных, используя функцию "Пример данных" на вкладке входных данных.
+3.	Найдите тестовый файл. В [github](https://github.com/Azure/azure-stream-analytics/tree/master/Sample данных) доступно несколько примеров файлов, а также возможность извлекать примеры данных из входных потоковых данных, используя функцию "Пример данных" на вкладке входных данных.
 
     ![Входные данные запроса](./media/stream-analytics-write-queries/5-stream-analytics-write-queries.png)
 
@@ -71,4 +71,4 @@
 - [Справочник по языку запросов Azure Stream Analytics](https://msdn.microsoft.com/library/azure/dn834998.aspx)
 - [Справочник по API-интерфейсу REST управления Stream Analytics](https://msdn.microsoft.com/library/azure/dn835031.aspx)
 
-<!---HONumber=AcomDC_0727_2016-->
+<!---HONumber=AcomDC_0921_2016-->
